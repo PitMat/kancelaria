@@ -371,7 +371,7 @@ img {
     }
 }
 
-/* Monitory */
+/* Monitory większe */
 
 @media(min-width: 1000px) and (max-width:1500px) {
     .banner h2 {
