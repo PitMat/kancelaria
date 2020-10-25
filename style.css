@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 100px;
+}
+
+.banner {
+    position: relative;
+    min-height: 100vh;
+    background: url(/img/pic3.jpeg);
+    background-size: cover;
+    background-position: right;
+    /* filter: brightness(0.8); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h2 {
+    font-size: 3.5em;
+    color: #004D44;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.banner h3 {
+    font-size: 2em;
+    color: #004D44;
+    font-weight: 500;
+}
+
+.btn {
+    position: relative;
+    background: #004D44;
+    display: inline-block;
+    color: #E6B805;
+    margin-top: 20px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    background-color: #004d44d7;
+    padding: 10px 15px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky {
+    background: #fff;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+header ul {
+    position: relative;
+    display: flex;
+
+}
+
+header ul li {
+
+    position: relative;
+    list-style: none;
+
+}
+
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #E6B805;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+header .sticky ul li a {
+    color: #fff;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.heading h2 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #004D44;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBX {
+    padding: 30px;
+}
+
+.contentBX p {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.contentBX h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.w50 {
+    min-width: 50%;
+}
+
+img {
+    margin-top: 5%;
+    max-width: 90%;
+}
+
+.services {
+    background: #004d44d7;
+}
+
+.serviceHeading {
+    color: #E6B805;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.serviceIcon {
+    color: #E6B805;
+    font-size: 3em;
+}
+
+.serviceHeading h2 {
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.services .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.services .content .servicesBx {
+    padding: 40px 20px;
+    background: #222;
+    color: #fff;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+
+
+}
+
+.price {
+    background: white;
+}
+
+.position {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #004d44d7;
+    border-radius: 50px;
+    padding: 5px 50px 5px 50px;
+
+    margin-top: 5vh;
+    color: #E6B805;
+    font-size: 2em;
+
+}
+
+.servicePrice {
+    font-weight: 600;
+}
+
+.contact {
+
+    background: #111;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contact h2 {
+    color: #E6B805;
+}
+
+.text h3 {
+    color: #E6B805;
+    font-size: 1.5em;
+}
+
+.icon {
+    color: #E6B805;
+    font-size: 1.5em;
+}
+
+.text p {
+    color: white;
+}
+
+.box {
+    padding: 20px;
+}
+
+.map {
+    min-width: 40%;
+    padding: 50px;
+
+}
+
+/* RESPO */
+
+
+@media screen and (min-width: 768px) {
+    .banner h2 {
+        font-size: 2em;
+
+    }
+
+
+}
+
+@media screen and (min-width:1024px) {
+
+    .banner h2 {
+        font-size: 2.5em;
+
+    }
+}
